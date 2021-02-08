@@ -1,0 +1,22 @@
+<div class="container center">
+  <h1>Create your own recipe!</h1>
+</div>
+<div class="row">
+  <div class="container left">
+    <div class="col-lg-12">
+      <form class="create-recipe" name="new-recipe" action="/recipes" method="post">
+        <div class="mb-3">
+          <label for="recipeTitle" class="form-label">Title</label>
+          <input type="text" class="form-control" id="recipeTitle" placeholder="Title" name="recipeTitle">
+        </div>
+        <div class="mb-3">
+          <label for="recipeDescr" class="form-label">Description</label>
+          <textarea class="form-control" id="recipeDescr" rows="3" name="recipeBody"></textarea>
+        </div>
+        <div class="row1">
+          <button type="submit" class="btn btn-primary" value="addRecipe">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+.center {
+text-align: center;
+position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 10px;
+}
+.button {
+  position: relative;
+  top: 50px;
+}
+
+.title-body {
+  margin: 0;
+}
+
+.left {
+  justify-content: left;
+}
+
+.row1 {
+  text-align: center;
+}

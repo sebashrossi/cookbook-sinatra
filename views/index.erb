@@ -1,0 +1,17 @@
+<div class="container center">
+  <h1>Welcome to the Cookbook!</h1>
+</div>
+<br>
+<div class="list-group">
+    <% @recipes.each do |recipe| %>
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1 item"><%= recipe.name %></h5>
+      <small>Just now</small>
+    </div>
+    <p class="mb-1"><%= recipe.description %></p>
+    <% end %>
+</div>
+<div class="center">
+<button class="btn btn-light button"><a href="/create">Create!</a></button>
+</div>
+
